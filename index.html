@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Allen Keng </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Allen</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#technical" class="nav-link"><span data-hover="Technical Skills">Technical Skills</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <large class="large-text">Welcome to <span class="mobile-block">my portfolio website!</span></large>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hi there, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Allen Keng</span>
+                                    <span class="animated-item">Allen Keng</span>
+                                    <span class="animated-item">Allen Keng</span>
+                                </div>
+                        </h1>
+
+                        <p>
+                          I am a 4th year Computer Engineering major at UC San Diego.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/myface2.jpg" class="img-fluid" alt="svg image" style="width: 50%; height: auto;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>The Project List</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info"> <br>
+                            <h3><span>Snowboard Support System</span></h3>
+                                  <h5> <small>C, Python, Bluetooth Low Energy, HTML, JS, CSS</small></h5>
+                                  <img src="images/BoardView.png" style="width: 50%; height: auto; margin: auto;" /> 
+                                  <p>• Arduino C for accelerometer data retrieval and <br> 
+                                    bluetooth data transferring. <br>
+                                    • KiCad for PCB design to integrate our ESP32, accelerometer, <br> 
+                                    power supply, potentiometer, and buzzer in a compact manner.  <br>
+                                    • Python GUI to receive and display data via Bleak and Tkinter <br>
+                                    • <a href="https://allkeng.github.io/Snowboard-Support-System/">Project website</a> using HTML, JavaScript, and CSS  </p>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info"> <br>
+                            <h3><span>Pantry Pals</span></h3>
+                                  <h5> <small>Java, JUnit, JavaFx, ChatGPT API, RESTful API, MongoDB</small></h5>
+                                  <!--<img src="images/BoardView.png" style="width: 50%; height: auto; margin: auto;" /> -->
+                                  <div class="video-container">
+                                    <video class="responsive-video" controls>
+                                      <source src="images/pantrypalDemo.mp4" type="video/mp4" >
+                                      Your browser does not support the video tag.
+                                    </video>
+                                  </div>
+                                  <p>• Server setup to handle HTTP requests for managing recipes <br> 
+                                    and user data with backend connectivity to a MongoDB database <br>
+                                    • ChatGPT API used to generate recipes and images from user-provided ingredients <br> 
+                                    • JavaFX GUI to display recipe details, while following MVC Principles. <br>
+                                    • <a href="https://github.com/sprestrelski/pantrypal">Github </a> Actions setup to run JUnit tests</p>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info"> <br>
+                            <h3><span>Calendar Redesign </span></h3>
+                                  <h5> <small>HTML, Javascript, CSS, Google Cloud Console (Calendar API) </small></h5>
+                                  <img src="images/calendar.png" style="width: 65%; height: auto; margin: auto;" /> 
+                                  
+                                  <p>• Designed to display google calendar events with <br> more customization. <br>
+                                    • Fetches via Google Calendar API to retrieve events. <br>
+                                    • Parses through events, assigning specific events a background and text color. <br> 
+                                    • Could also customize the size of a day box. <br>
+                                    • Implements Full Calendar library to show the customized events. <br>
+                          </div>
+                        </div>
+                        
+                        <div class="item">
+                          <div class="project-info"> <br>
+                            <br><br><br>
+                            <h3><span>Discord Bot</span></h3>
+                                  <h5> <small>Node.JS, Javascript</small></h5>
+                                  <!--<img src="images/BoardView.png" style="width: 50%; height: auto; margin: auto;" /> -->
+                                  
+                                  <p>• Designed to save embedded mp3 files, play them within voice <br>
+                                    channels, display them in a list, and modify their descriptions; <br>
+                                    all of which is done directly from the discord app. <br> 
+                                    • Queries a website about a player's game statistics to return <br>
+                                    information regarding a user's skill level on a champion in a game. <br> 
+                                    • Hosted on an Oracle Cloud VM Instance <br>
+                          </div>
+                        </div>
+
+                        
+                        <div class="item">
+                          <div class="project-info"> <br>
+                            <br><br><br>
+                            <h3><span>Intro to Machine Learning</span></h3>
+                                  <h5> <small>Python: pandas, seaborn, sklearn, matplotlib, numpy, keras, tensorflow </small></h5>
+                                  <img src="images/stars.PNG" style="width: 65%; height: auto; margin: auto;" /> 
+                                  
+                                  <p>• Establish a predictive model that can accurately <br>
+                                    classify asteroids into predefined categories. <br> 
+                                    • Preprocessed data using scaling, normalization, or one hot encoding. <br>
+                                    • Split data into training and testing data. <br> 
+                                    • Used Linear Regression, Neural Network, and Naive Bayes models. <br>
+                                    • Observe the best model for our dataset via accuracy. <br>
+                                    • Write a <a href="https://github.com/kaijia2022/CSE151A-Project-Repo"> report</a> on our findings.
+                          </div>
+                        </div>
+                        <!-- END OF OWL CAROUSEL-->
+                        </div>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2023</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Software Developer Intern</span><small>San Diego Supercomputer Center</small></h3>
+                                  <h5> <small>June 2023 - September 2023 </small></h5>
+                                  <p>• Collaborated with an Agile team to create an immersive 3D virtual escape room in Unity, designed to enhance
+                                    UCSD students' awareness of campus resources. <br>
+                                    • C# programming using Unity's attachment to Visual Studio <br>
+                                    • Real-time leaderboard with WebSocket API connecting Unity WebGL and a Node.js HTTPS server maintained on an Oracle Cloud Virtual Machine. <br>
+                                    • Reached 350+ users and gave them more insights about Geisel Library </p>
+                             </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Education</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span></span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>University of California, San Diego </span><small>Expected Graduation: June 2025</small></h3>
+                                  <p>Bachelor of Science in Computer Engineering <br> GPA: 3.81</p>
+                             </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span></span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Relevant Coursework</span><small></small></h3>
+                                <p>
+                                  • Principles of Computer Operating Systems <br>
+                                  • Software Engineering <br>
+                                  • Advanced Digital Design <br> 
+                                  • Digital Integrated Circuits <br>
+                                  • Digital Systems <br>
+                                  • Linear Systems <br> 
+                                  • Computer Architecture <br> 
+                                  • Systems Programming <br> 
+                                  • Machine Learning <br> 
+                                  • Advanced Data Structures <br>
+                                  •  Analog Design <br> 
+                                  • Circuits and Systems 
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="technical skill" id="technical">
+      <div class="project-info text-center"> <br>
+        <h2 class="mb-4"><span>Technical Skills</span></h2>
+              <p style="display: inline-block; text-align: left;">• <b>Languages:</b> Java, Python, C/C#/C++, JavaScript, HTML/CSS, SystemVerilog <br>
+                • <b>Frameworks:</b> React, Node.js, JUnit, JavaFX, MongoDB <br>
+                • <b>Software Tools:</b> Git, Gitlab, Docker, VS Code, Visual Studio, Oracle Cloud Infrastructure (OCI), Google Cloud Console <br> 
+                • <b>Engineering Design Tools:</b> LTSpice, KiCad, Virtuoso Cadence, Quartus, ModelSim, Matlab, Onshape <br>
+              </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Website Portfolio</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
